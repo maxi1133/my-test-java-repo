@@ -1,0 +1,23 @@
+server:
+  port: 5001
+
+spring:
+  #
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/some-db
+    username: root
+    password: admin
+  #
+  redis:
+    host: localhost
+    port: 6379
+    password: admin
+
+elastic-search:
+  host: localhost
+  port: 9200
+
+jwt-config:
+  secret-key: my-custom-secret-key-290698-181100
+  expired-in: 365

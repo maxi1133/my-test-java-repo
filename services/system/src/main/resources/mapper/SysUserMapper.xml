@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zaka.mapper.SysUserMapper" >
+
+    <resultMap id="sys_user" type="com.zaka.entity.SysUser" >
+        <id column="user_id" property="userId"/>
+        <result column="user_name" property="userName"/>
+        <result column="email" property="email"/>
+        <result column="password" property="password"/>
+    </resultMap>
+
+</mapper>

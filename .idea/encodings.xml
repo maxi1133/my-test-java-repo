@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/BATCH/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/BATCH/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SECURITY/spring-interceptor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SECURITY/spring-interceptor/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SECURITY/spring-security/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SECURITY/spring-security/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SECURITY/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SECURITY/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/back-office/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/back-office/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/components/elastic-search/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/components/elastic-search/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/components/redis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/components/redis/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/components/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/components/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/server/back-office/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/server/back-office/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/server/business-intelligence/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/server/business-intelligence/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/server/consumer-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/server/consumer-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/server/producer-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/server/producer-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/server/rabbit-mq/consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/server/rabbit-mq/consumer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/server/rabbit-mq/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/server/rabbit-mq/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/services/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/services/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/services/system-2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/services/system-2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/services/system/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/services/system/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

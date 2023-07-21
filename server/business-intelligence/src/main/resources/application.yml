@@ -1,0 +1,12 @@
+server:
+  servlet:
+    contextPath: /api
+
+spring:
+  jackson:
+    serialization:
+      indent_output: true
+  profiles:
+    active:
+      - dev
+      - something

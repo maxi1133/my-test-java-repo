@@ -1,0 +1,10 @@
+spring:
+  jackson:
+    serialization:
+      indent_output: true
+  profiles:
+    active:
+      - dev
+
+mybatis-plus:
+  mapper-locations: classpath:/mapper/*Mapper.xml
