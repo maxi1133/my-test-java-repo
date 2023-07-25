@@ -1,9 +1,6 @@
 package com.zaka;
 
-import com.zaka.entity.SysUser;
-import com.zaka.utils.ExcelUtils;
 import lombok.AllArgsConstructor;
-import lombok.experimental.FieldNameConstants;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -12,12 +9,11 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
-import org.springframework.util.StringUtils;
 
-import java.util.*;
+import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutorService;
-import java.util.stream.Collectors;
 
 @SpringBootApplication
 @Slf4j
@@ -75,10 +71,6 @@ public class AuthenticationServer implements CommandLineRunner {
 //                SysUser.builder().userId(3).userName("ả").build()
 //        );
 //        final Map<Integer, LinkedList<SysUser>> t = users.stream().collect(Collectors.groupingBy(SysUser::getUserId, Collectors.toCollection(LinkedList::new)));
-        countMinRoom();
-
-        String a = "dasd";
-        StringBuilder asd = new StringBuilder(a).reverse().toString();
     }
 
     private int countMinRoom() {
