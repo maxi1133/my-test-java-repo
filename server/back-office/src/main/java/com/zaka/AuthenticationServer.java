@@ -46,6 +46,7 @@ public class AuthenticationServer implements CommandLineRunner {
     public void run(String... args) throws Exception {
         log.info("Authentication server started at: {}", port);
         log.info("Authentication server started at: {}", port);
+        log.info("Authentication server started at: {}", port);
 
 //        final List<A> cfs = List.of(
 //                new A("aaaa", 3000),
