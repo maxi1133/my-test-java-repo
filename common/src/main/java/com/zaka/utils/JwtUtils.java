@@ -30,13 +30,13 @@ public class JwtUtils {
      */
     public String generateTokenFromUserInfo(Object userInfo) {
         final Date now = new Date();
-        final Date plusDay = Date.from(now.toInstant().plus(jwtConfig.getExpiredIn(), ChronoUnit.DAYS));
+        final Date expiredDay = Date.from(now.toInstant().plus(jwtConfig.getExpiredIn(), ChronoUnit.DAYS));
 
         return JWT
                 .create()
                 .withPayload(CommonUtils.convertObjectToHashMap(userInfo))
                 .withIssuedAt(now)
-                .withExpiresAt(plusDay)
+                .withExpiresAt(expiredDay)
                 .sign(algorithm);
     }
 
